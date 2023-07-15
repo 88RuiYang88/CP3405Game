@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2A9AC264-469F-4857-AA30-2B490D4F1168}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CP3405Game</RootNamespace>
+    <AssemblyName>CP3405Game</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GUI\GamePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\GamePage.Designer.cs">
+      <DependentUpon>GamePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\LoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\LoginPage.Designer.cs">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\GamePage.resx">
+      <DependentUpon>GamePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\LoginPage.resx">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="charactor\Adam-white_hair-brown_eyes-red_shirt-white_skin-1.png" />
+    <Content Include="charactor\Alice-red_hair-blue_eyes-red_shirt-brown_skin-0.png" />
+    <Content Include="charactor\Balle-red_hair-blue_eyes-orange_shirt-brown_skin-0.png" />
+    <Content Include="charactor\Ben-white_hair-brown_eyes-orange_shirt-white_skin-1.png" />
+    <Content Include="charactor\Caesar-white_hair-brown_eyes-yellow_shirt-white_skin-1.png" />
+    <Content Include="charactor\Cindy-red_hair-blue_eyes-yellow_shirt-brown_skin-0.png" />
+    <Content Include="charactor\David-white_hair-brown_eyes-green_shirt-white_skin-1.png" />
+    <Content Include="charactor\Debby-red_hair-blue_eyes-green_shirt-brown_skin-0.png" />
+    <Content Include="charactor\Elsa-red_hair-blue_eyes-blue_shirt-black_skin-0.png" />
+    <Content Include="charactor\Eric-white_hair-brown_eyes-blue_shirt-white_skin-1.png" />
+    <Content Include="charactor\Fiona-red_hair-blue_eyes-white_shirt-black_skin-0.png" />
+    <Content Include="charactor\Frank-white_hair-brown_eyes-white_shirt-white_skin-1.png" />
+    <Content Include="charactor\Gary-white_hair-brown_eyes-black_shirt-white_skin-1.png" />
+    <Content Include="charactor\Ginny-red_hair-blue_eyes-black_shirt-black_skin-0.png" />
+    <Content Include="charactor\Hank-black_hair-black_eyes-red_shirt-white_skin-1.png" />
+    <Content Include="charactor\Helen-yellow_hair-green_eyes-red_shirt-black_skin-0.png" />
+    <Content Include="charactor\Ivan-black_hair-black_eyes-orange_shirt-white_skin-1.png" />
+    <Content Include="charactor\Ivy-yellow_hair-green_eyes-orange_shirt-black_skin-0.png" />
+    <Content Include="charactor\Jack-black_hair-black_eyes-yellow_shirt-brown_skin-1.png" />
+    <Content Include="charactor\Jenny-yellow_hair-green_eyes-yellow_shirt-black_skin-0.png" />
+    <Content Include="charactor\Kata-yellow_hair-green_eyes-green_shirt-black_skin-0.png" />
+    <Content Include="charactor\Ken-black_hair-black_eyes-green_shirt-brown_skin-1.png" />
+    <Content Include="charactor\Lee-black_hair-black_eyes-blue_shirt-brown_skin-1.png" />
+    <Content Include="charactor\Lily-yellow_hair-green_eyes-blue_shirt-black_skin-0.png" />
+    <Content Include="charactor\Maria-yellow_hair-green_eyes-white_shirt-black_skin-0.png" />
+    <Content Include="charactor\Martin-black_hair-black_eyes-white_shirt-brown_skin-1.png" />
+    <Content Include="charactor\Nancy-yellow_hair-green_eyes-black_shirt-black_skin-0.png" />
+    <Content Include="charactor\Nick-black_hair-black_eyes-black_shirt-brown_skin-1.png" />
+    <Content Include="charactor\Oscar%28Avatar%29-blue_hair-black_eyes-red_shirt-bule_skin-1.png" />
+    <Content Include="charactor\Oz%28Avatar%29-blue_hair-black_eyes-yellow_shirt-blue_skin-0.png" />
+    <Content Include="charactor\Ray%28Avatar%29-blue_hair-black_eyes-green_shirt-blue_skin-1.png" />
+    <Content Include="charactor\Rita%28Avatar%29-blue_hair-black_eyes-blue_shirt-blue_skin-0.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
