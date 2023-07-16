@@ -54,17 +54,16 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btn_readyOrStart = new System.Windows.Forms.Button();
+            this.lab_Gaming = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lab_EnemyScore = new System.Windows.Forms.Label();
+            this.lab_urScore = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnSurrender = new System.Windows.Forms.Button();
             this.btnGuess = new System.Windows.Forms.Button();
-            this.cblSex = new System.Windows.Forms.CheckedListBox();
-            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.PicHome = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -92,7 +91,11 @@
             this.pictureBox47 = new System.Windows.Forms.PictureBox();
             this.pictureBox48 = new System.Windows.Forms.PictureBox();
             this.pictureBox49 = new System.Windows.Forms.PictureBox();
-            this.labGaming = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lab_RoomNumb = new System.Windows.Forms.Label();
+            this.lb_sex = new System.Windows.Forms.ListBox();
+            this.lb_detail_1 = new System.Windows.Forms.ListBox();
+            this.lb_detail_2 = new System.Windows.Forms.ListBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
@@ -400,26 +403,48 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.labGaming);
+            this.groupBox3.Controls.Add(this.lb_detail_2);
+            this.groupBox3.Controls.Add(this.lb_detail_1);
+            this.groupBox3.Controls.Add(this.lb_sex);
+            this.groupBox3.Controls.Add(this.lab_RoomNumb);
+            this.groupBox3.Controls.Add(this.label5);
+            this.groupBox3.Controls.Add(this.btn_readyOrStart);
+            this.groupBox3.Controls.Add(this.lab_Gaming);
             this.groupBox3.Controls.Add(this.groupBox4);
             this.groupBox3.Controls.Add(this.btnExit);
             this.groupBox3.Controls.Add(this.btnSurrender);
             this.groupBox3.Controls.Add(this.btnGuess);
-            this.groupBox3.Controls.Add(this.cblSex);
-            this.groupBox3.Controls.Add(this.checkedListBox2);
-            this.groupBox3.Controls.Add(this.checkedListBox1);
             this.groupBox3.Font = new System.Drawing.Font("黑体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox3.Location = new System.Drawing.Point(1105, 14);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(642, 806);
+            this.groupBox3.Size = new System.Drawing.Size(642, 801);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Pick Area";
             // 
+            // btn_readyOrStart
+            // 
+            this.btn_readyOrStart.Location = new System.Drawing.Point(6, 703);
+            this.btn_readyOrStart.Name = "btn_readyOrStart";
+            this.btn_readyOrStart.Size = new System.Drawing.Size(154, 89);
+            this.btn_readyOrStart.TabIndex = 8;
+            this.btn_readyOrStart.Text = "Start";
+            this.btn_readyOrStart.UseVisualStyleBackColor = true;
+            // 
+            // lab_Gaming
+            // 
+            this.lab_Gaming.AutoSize = true;
+            this.lab_Gaming.Font = new System.Drawing.Font("黑体", 42F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lab_Gaming.Location = new System.Drawing.Point(343, 726);
+            this.lab_Gaming.Name = "lab_Gaming";
+            this.lab_Gaming.Size = new System.Drawing.Size(282, 70);
+            this.lab_Gaming.TabIndex = 4;
+            this.lab_Gaming.Text = "WAITING";
+            // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.label4);
-            this.groupBox4.Controls.Add(this.label3);
+            this.groupBox4.Controls.Add(this.lab_EnemyScore);
+            this.groupBox4.Controls.Add(this.lab_urScore);
             this.groupBox4.Controls.Add(this.label2);
             this.groupBox4.Controls.Add(this.label1);
             this.groupBox4.Location = new System.Drawing.Point(327, 608);
@@ -429,23 +454,23 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Score";
             // 
-            // label4
+            // lab_EnemyScore
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(214, 78);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(20, 20);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "0";
+            this.lab_EnemyScore.AutoSize = true;
+            this.lab_EnemyScore.Location = new System.Drawing.Point(214, 78);
+            this.lab_EnemyScore.Name = "lab_EnemyScore";
+            this.lab_EnemyScore.Size = new System.Drawing.Size(20, 20);
+            this.lab_EnemyScore.TabIndex = 3;
+            this.lab_EnemyScore.Text = "0";
             // 
-            // label3
+            // lab_urScore
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(214, 39);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(20, 20);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "0";
+            this.lab_urScore.AutoSize = true;
+            this.lab_urScore.Location = new System.Drawing.Point(214, 39);
+            this.lab_urScore.Name = "lab_urScore";
+            this.lab_urScore.Size = new System.Drawing.Size(20, 20);
+            this.lab_urScore.TabIndex = 2;
+            this.lab_urScore.Text = "0";
             // 
             // label2
             // 
@@ -473,56 +498,26 @@
             this.btnExit.TabIndex = 6;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnSurrender
             // 
-            this.btnSurrender.Location = new System.Drawing.Point(6, 703);
+            this.btnSurrender.Location = new System.Drawing.Point(167, 608);
             this.btnSurrender.Name = "btnSurrender";
             this.btnSurrender.Size = new System.Drawing.Size(154, 89);
             this.btnSurrender.TabIndex = 4;
             this.btnSurrender.Text = "Surrender";
             this.btnSurrender.UseVisualStyleBackColor = true;
+            this.btnSurrender.Click += new System.EventHandler(this.btnSurrender_Click);
             // 
             // btnGuess
             // 
             this.btnGuess.Location = new System.Drawing.Point(6, 608);
             this.btnGuess.Name = "btnGuess";
-            this.btnGuess.Size = new System.Drawing.Size(313, 89);
+            this.btnGuess.Size = new System.Drawing.Size(154, 89);
             this.btnGuess.TabIndex = 3;
             this.btnGuess.Text = "Guess";
             this.btnGuess.UseVisualStyleBackColor = true;
-            // 
-            // cblSex
-            // 
-            this.cblSex.FormattingEnabled = true;
-            this.cblSex.HorizontalScrollbar = true;
-            this.cblSex.Items.AddRange(new object[] {
-            "None",
-            "Male",
-            "Female"});
-            this.cblSex.Location = new System.Drawing.Point(6, 29);
-            this.cblSex.MultiColumn = true;
-            this.cblSex.Name = "cblSex";
-            this.cblSex.Size = new System.Drawing.Size(630, 54);
-            this.cblSex.TabIndex = 2;
-            // 
-            // checkedListBox2
-            // 
-            this.checkedListBox2.FormattingEnabled = true;
-            this.checkedListBox2.HorizontalScrollbar = true;
-            this.checkedListBox2.Location = new System.Drawing.Point(325, 89);
-            this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(313, 504);
-            this.checkedListBox2.TabIndex = 1;
-            // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.HorizontalScrollbar = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(6, 89);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(313, 504);
-            this.checkedListBox1.TabIndex = 0;
             // 
             // textBox1
             // 
@@ -793,15 +788,52 @@
             this.pictureBox49.TabIndex = 9;
             this.pictureBox49.TabStop = false;
             // 
-            // labGaming
+            // label5
             // 
-            this.labGaming.AutoSize = true;
-            this.labGaming.Font = new System.Drawing.Font("黑体", 42F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labGaming.Location = new System.Drawing.Point(343, 726);
-            this.labGaming.Name = "labGaming";
-            this.labGaming.Size = new System.Drawing.Size(282, 70);
-            this.labGaming.TabIndex = 4;
-            this.labGaming.Text = "WAITING";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("黑体", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Location = new System.Drawing.Point(6, 556);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(134, 44);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Room:";
+            // 
+            // lab_RoomNumb
+            // 
+            this.lab_RoomNumb.AutoSize = true;
+            this.lab_RoomNumb.Font = new System.Drawing.Font("黑体", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lab_RoomNumb.Location = new System.Drawing.Point(146, 556);
+            this.lab_RoomNumb.Name = "lab_RoomNumb";
+            this.lab_RoomNumb.Size = new System.Drawing.Size(0, 44);
+            this.lab_RoomNumb.TabIndex = 10;
+            // 
+            // lb_sex
+            // 
+            this.lb_sex.FormattingEnabled = true;
+            this.lb_sex.ItemHeight = 20;
+            this.lb_sex.Location = new System.Drawing.Point(4, 29);
+            this.lb_sex.Name = "lb_sex";
+            this.lb_sex.Size = new System.Drawing.Size(632, 84);
+            this.lb_sex.TabIndex = 11;
+            this.lb_sex.SelectedIndexChanged += new System.EventHandler(this.lb_sex_SelectedIndexChanged);
+            // 
+            // lb_detail_1
+            // 
+            this.lb_detail_1.FormattingEnabled = true;
+            this.lb_detail_1.ItemHeight = 20;
+            this.lb_detail_1.Location = new System.Drawing.Point(6, 119);
+            this.lb_detail_1.Name = "lb_detail_1";
+            this.lb_detail_1.Size = new System.Drawing.Size(314, 424);
+            this.lb_detail_1.TabIndex = 12;
+            // 
+            // lb_detail_2
+            // 
+            this.lb_detail_2.FormattingEnabled = true;
+            this.lb_detail_2.ItemHeight = 20;
+            this.lb_detail_2.Location = new System.Drawing.Point(326, 117);
+            this.lb_detail_2.Name = "lb_detail_2";
+            this.lb_detail_2.Size = new System.Drawing.Size(310, 424);
+            this.lb_detail_2.TabIndex = 13;
             // 
             // GamePage
             // 
@@ -932,16 +964,19 @@
         private System.Windows.Forms.PictureBox pictureBox48;
         private System.Windows.Forms.PictureBox pictureBox49;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lab_EnemyScore;
+        private System.Windows.Forms.Label lab_urScore;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnSurrender;
         private System.Windows.Forms.Button btnGuess;
-        private System.Windows.Forms.CheckedListBox cblSex;
-        private System.Windows.Forms.CheckedListBox checkedListBox2;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
-        private System.Windows.Forms.Label labGaming;
+        private System.Windows.Forms.Button btn_readyOrStart;
+        private System.Windows.Forms.Label lab_Gaming;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lab_RoomNumb;
+        private System.Windows.Forms.ListBox lb_sex;
+        private System.Windows.Forms.ListBox lb_detail_2;
+        private System.Windows.Forms.ListBox lb_detail_1;
     }
 }

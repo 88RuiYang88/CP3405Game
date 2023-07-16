@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AWSSDK.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\packages\AWSSDK.Core.3.7.108.2\lib\net45\AWSSDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.SQS, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\packages\AWSSDK.SQS.3.7.103.11\lib\net45\AWSSDK.SQS.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DATA\SQSConnect.cs" />
     <Compile Include="GUI\GamePage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +82,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -89,38 +97,111 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="charactor\Adam-white_hair-brown_eyes-red_shirt-white_skin-1.png" />
-    <Content Include="charactor\Alice-red_hair-blue_eyes-red_shirt-brown_skin-0.png" />
-    <Content Include="charactor\Balle-red_hair-blue_eyes-orange_shirt-brown_skin-0.png" />
-    <Content Include="charactor\Ben-white_hair-brown_eyes-orange_shirt-white_skin-1.png" />
-    <Content Include="charactor\Caesar-white_hair-brown_eyes-yellow_shirt-white_skin-1.png" />
-    <Content Include="charactor\Cindy-red_hair-blue_eyes-yellow_shirt-brown_skin-0.png" />
-    <Content Include="charactor\David-white_hair-brown_eyes-green_shirt-white_skin-1.png" />
-    <Content Include="charactor\Debby-red_hair-blue_eyes-green_shirt-brown_skin-0.png" />
-    <Content Include="charactor\Elsa-red_hair-blue_eyes-blue_shirt-black_skin-0.png" />
-    <Content Include="charactor\Eric-white_hair-brown_eyes-blue_shirt-white_skin-1.png" />
-    <Content Include="charactor\Fiona-red_hair-blue_eyes-white_shirt-black_skin-0.png" />
-    <Content Include="charactor\Frank-white_hair-brown_eyes-white_shirt-white_skin-1.png" />
-    <Content Include="charactor\Gary-white_hair-brown_eyes-black_shirt-white_skin-1.png" />
-    <Content Include="charactor\Ginny-red_hair-blue_eyes-black_shirt-black_skin-0.png" />
-    <Content Include="charactor\Hank-black_hair-black_eyes-red_shirt-white_skin-1.png" />
-    <Content Include="charactor\Helen-yellow_hair-green_eyes-red_shirt-black_skin-0.png" />
-    <Content Include="charactor\Ivan-black_hair-black_eyes-orange_shirt-white_skin-1.png" />
-    <Content Include="charactor\Ivy-yellow_hair-green_eyes-orange_shirt-black_skin-0.png" />
-    <Content Include="charactor\Jack-black_hair-black_eyes-yellow_shirt-brown_skin-1.png" />
-    <Content Include="charactor\Jenny-yellow_hair-green_eyes-yellow_shirt-black_skin-0.png" />
-    <Content Include="charactor\Kata-yellow_hair-green_eyes-green_shirt-black_skin-0.png" />
-    <Content Include="charactor\Ken-black_hair-black_eyes-green_shirt-brown_skin-1.png" />
-    <Content Include="charactor\Lee-black_hair-black_eyes-blue_shirt-brown_skin-1.png" />
-    <Content Include="charactor\Lily-yellow_hair-green_eyes-blue_shirt-black_skin-0.png" />
-    <Content Include="charactor\Maria-yellow_hair-green_eyes-white_shirt-black_skin-0.png" />
-    <Content Include="charactor\Martin-black_hair-black_eyes-white_shirt-brown_skin-1.png" />
-    <Content Include="charactor\Nancy-yellow_hair-green_eyes-black_shirt-black_skin-0.png" />
-    <Content Include="charactor\Nick-black_hair-black_eyes-black_shirt-brown_skin-1.png" />
-    <Content Include="charactor\Oscar%28Avatar%29-blue_hair-black_eyes-red_shirt-bule_skin-1.png" />
-    <Content Include="charactor\Oz%28Avatar%29-blue_hair-black_eyes-yellow_shirt-blue_skin-0.png" />
-    <Content Include="charactor\Ray%28Avatar%29-blue_hair-black_eyes-green_shirt-blue_skin-1.png" />
-    <Content Include="charactor\Rita%28Avatar%29-blue_hair-black_eyes-blue_shirt-blue_skin-0.png" />
+    <Content Include="charactor\1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\14.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\15.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\17.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\18.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\19.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\20.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\21.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\22.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\23.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\24.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\25.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\26.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\27.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\28.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\30.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\31.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\32.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="charactor\9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="NameList.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Business\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\AWSSDK.SQS.3.7.103.11\analyzers\dotnet\cs\AWSSDK.SQS.CodeAnalysis.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
