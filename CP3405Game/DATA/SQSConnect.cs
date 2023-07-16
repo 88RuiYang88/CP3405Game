@@ -21,7 +21,7 @@ namespace CP3405Game.DATA
         /// 
         /// </summary>
         /// <returns></returns>
-        public static string getMessageSQS()
+        public static string getMessageSQS(int ownerOrGuest)
         {
             Environment.SetEnvironmentVariable("AWS_ACCESS_KEY_ID", "AKIAXGPBUUUHYHVGHEHL");
             Environment.SetEnvironmentVariable("AWS_SECRET_ACCESS_KEY", "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");
@@ -45,13 +45,16 @@ namespace CP3405Game.DATA
                     if (message.MessageId == MessageIDNow)
                     {
                         returnInfor = message.Body;
-                        // 删除已处理的消息
-                        var deleteRequest = new DeleteMessageRequest
+                        if (returnInfor.Split('|')[1]== ownerOrGuest.ToString())
                         {
-                            QueueUrl = outputUrl,
-                            ReceiptHandle = message.ReceiptHandle
-                        };
-                        sqsClient.DeleteMessage(deleteRequest);
+                            // 删除已处理的消息
+                            var deleteRequest = new DeleteMessageRequest
+                            {
+                                QueueUrl = outputUrl,
+                                ReceiptHandle = message.ReceiptHandle
+                            };
+                            sqsClient.DeleteMessage(deleteRequest);
+                        }
                     }
                 }
             }

@@ -26,7 +26,7 @@ namespace CP3405Game.GUI
 
             Console.WriteLine(SQSConnect.MessageIDNow);
 
-           string tempRoom= SQSConnect.getMessageSQS();
+           string tempRoom= SQSConnect.getMessageSQS(0);
 
             if (tempRoom.IndexOf("NRN|")>=0)
             {
@@ -48,7 +48,7 @@ namespace CP3405Game.GUI
             {
                 SQSConnect.sendMessageSQS("ER|1"+RoomId);
 
-               string message =  SQSConnect.getMessageSQS();
+               string message =  SQSConnect.getMessageSQS(1);
 
                 if (message.Split('|')[3].ToString().ToLower()=="y")
                 {
