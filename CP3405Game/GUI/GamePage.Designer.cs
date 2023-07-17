@@ -29,8 +29,36 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.PB_own24 = new System.Windows.Forms.PictureBox();
+            this.PB_own23 = new System.Windows.Forms.PictureBox();
+            this.PB_own22 = new System.Windows.Forms.PictureBox();
+            this.PB_own21 = new System.Windows.Forms.PictureBox();
+            this.PB_own20 = new System.Windows.Forms.PictureBox();
+            this.PB_own19 = new System.Windows.Forms.PictureBox();
+            this.PB_own18 = new System.Windows.Forms.PictureBox();
+            this.PB_own17 = new System.Windows.Forms.PictureBox();
+            this.PB_own16 = new System.Windows.Forms.PictureBox();
+            this.PB_own15 = new System.Windows.Forms.PictureBox();
+            this.PB_own14 = new System.Windows.Forms.PictureBox();
+            this.PB_own13 = new System.Windows.Forms.PictureBox();
+            this.PB_own12 = new System.Windows.Forms.PictureBox();
+            this.PB_own11 = new System.Windows.Forms.PictureBox();
+            this.PB_own10 = new System.Windows.Forms.PictureBox();
+            this.PB_own9 = new System.Windows.Forms.PictureBox();
+            this.PB_own8 = new System.Windows.Forms.PictureBox();
+            this.PB_own7 = new System.Windows.Forms.PictureBox();
+            this.PB_own6 = new System.Windows.Forms.PictureBox();
+            this.PB_own5 = new System.Windows.Forms.PictureBox();
+            this.PB_own4 = new System.Windows.Forms.PictureBox();
+            this.PB_own3 = new System.Windows.Forms.PictureBox();
+            this.PB_own2 = new System.Windows.Forms.PictureBox();
             this.PB_own1 = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.lb_detail_2 = new System.Windows.Forms.ListBox();
+            this.lb_detail_1 = new System.Windows.Forms.ListBox();
+            this.lb_sex = new System.Windows.Forms.ListBox();
+            this.lab_RoomNumb = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.btn_readyOrStart = new System.Windows.Forms.Button();
             this.lab_Gaming = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
@@ -68,35 +96,30 @@
             this.PB_enemy13 = new System.Windows.Forms.PictureBox();
             this.PB_enemy7 = new System.Windows.Forms.PictureBox();
             this.PB_enemy1 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.lab_RoomNumb = new System.Windows.Forms.Label();
-            this.lb_sex = new System.Windows.Forms.ListBox();
-            this.lb_detail_1 = new System.Windows.Forms.ListBox();
-            this.lb_detail_2 = new System.Windows.Forms.ListBox();
-            this.PB_own2 = new System.Windows.Forms.PictureBox();
-            this.PB_own3 = new System.Windows.Forms.PictureBox();
-            this.PB_own4 = new System.Windows.Forms.PictureBox();
-            this.PB_own5 = new System.Windows.Forms.PictureBox();
-            this.PB_own6 = new System.Windows.Forms.PictureBox();
-            this.PB_own12 = new System.Windows.Forms.PictureBox();
-            this.PB_own11 = new System.Windows.Forms.PictureBox();
-            this.PB_own10 = new System.Windows.Forms.PictureBox();
-            this.PB_own9 = new System.Windows.Forms.PictureBox();
-            this.PB_own8 = new System.Windows.Forms.PictureBox();
-            this.PB_own7 = new System.Windows.Forms.PictureBox();
-            this.PB_own18 = new System.Windows.Forms.PictureBox();
-            this.PB_own17 = new System.Windows.Forms.PictureBox();
-            this.PB_own16 = new System.Windows.Forms.PictureBox();
-            this.PB_own15 = new System.Windows.Forms.PictureBox();
-            this.PB_own14 = new System.Windows.Forms.PictureBox();
-            this.PB_own13 = new System.Windows.Forms.PictureBox();
-            this.PB_own24 = new System.Windows.Forms.PictureBox();
-            this.PB_own23 = new System.Windows.Forms.PictureBox();
-            this.PB_own22 = new System.Windows.Forms.PictureBox();
-            this.PB_own21 = new System.Windows.Forms.PictureBox();
-            this.PB_own20 = new System.Windows.Forms.PictureBox();
-            this.PB_own19 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_own1)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -126,29 +149,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.PB_enemy13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_enemy7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_enemy1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own19)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -185,6 +185,236 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Your People";
             // 
+            // PB_own24
+            // 
+            this.PB_own24.Location = new System.Drawing.Point(441, 417);
+            this.PB_own24.Name = "PB_own24";
+            this.PB_own24.Size = new System.Drawing.Size(81, 124);
+            this.PB_own24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own24.TabIndex = 32;
+            this.PB_own24.TabStop = false;
+            this.PB_own24.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own23
+            // 
+            this.PB_own23.Location = new System.Drawing.Point(354, 417);
+            this.PB_own23.Name = "PB_own23";
+            this.PB_own23.Size = new System.Drawing.Size(81, 124);
+            this.PB_own23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own23.TabIndex = 31;
+            this.PB_own23.TabStop = false;
+            this.PB_own23.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own22
+            // 
+            this.PB_own22.Location = new System.Drawing.Point(267, 417);
+            this.PB_own22.Name = "PB_own22";
+            this.PB_own22.Size = new System.Drawing.Size(81, 124);
+            this.PB_own22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own22.TabIndex = 30;
+            this.PB_own22.TabStop = false;
+            this.PB_own22.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own21
+            // 
+            this.PB_own21.Location = new System.Drawing.Point(180, 417);
+            this.PB_own21.Name = "PB_own21";
+            this.PB_own21.Size = new System.Drawing.Size(81, 124);
+            this.PB_own21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own21.TabIndex = 29;
+            this.PB_own21.TabStop = false;
+            this.PB_own21.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own20
+            // 
+            this.PB_own20.Location = new System.Drawing.Point(93, 417);
+            this.PB_own20.Name = "PB_own20";
+            this.PB_own20.Size = new System.Drawing.Size(81, 124);
+            this.PB_own20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own20.TabIndex = 28;
+            this.PB_own20.TabStop = false;
+            this.PB_own20.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own19
+            // 
+            this.PB_own19.Location = new System.Drawing.Point(6, 418);
+            this.PB_own19.Name = "PB_own19";
+            this.PB_own19.Size = new System.Drawing.Size(81, 124);
+            this.PB_own19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own19.TabIndex = 27;
+            this.PB_own19.TabStop = false;
+            this.PB_own19.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own18
+            // 
+            this.PB_own18.Location = new System.Drawing.Point(441, 287);
+            this.PB_own18.Name = "PB_own18";
+            this.PB_own18.Size = new System.Drawing.Size(81, 124);
+            this.PB_own18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own18.TabIndex = 26;
+            this.PB_own18.TabStop = false;
+            this.PB_own18.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own17
+            // 
+            this.PB_own17.Location = new System.Drawing.Point(354, 287);
+            this.PB_own17.Name = "PB_own17";
+            this.PB_own17.Size = new System.Drawing.Size(81, 124);
+            this.PB_own17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own17.TabIndex = 25;
+            this.PB_own17.TabStop = false;
+            this.PB_own17.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own16
+            // 
+            this.PB_own16.Location = new System.Drawing.Point(267, 287);
+            this.PB_own16.Name = "PB_own16";
+            this.PB_own16.Size = new System.Drawing.Size(81, 124);
+            this.PB_own16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own16.TabIndex = 24;
+            this.PB_own16.TabStop = false;
+            this.PB_own16.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own15
+            // 
+            this.PB_own15.Location = new System.Drawing.Point(180, 287);
+            this.PB_own15.Name = "PB_own15";
+            this.PB_own15.Size = new System.Drawing.Size(81, 124);
+            this.PB_own15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own15.TabIndex = 23;
+            this.PB_own15.TabStop = false;
+            this.PB_own15.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own14
+            // 
+            this.PB_own14.Location = new System.Drawing.Point(93, 287);
+            this.PB_own14.Name = "PB_own14";
+            this.PB_own14.Size = new System.Drawing.Size(81, 124);
+            this.PB_own14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own14.TabIndex = 22;
+            this.PB_own14.TabStop = false;
+            this.PB_own14.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own13
+            // 
+            this.PB_own13.Location = new System.Drawing.Point(6, 288);
+            this.PB_own13.Name = "PB_own13";
+            this.PB_own13.Size = new System.Drawing.Size(81, 124);
+            this.PB_own13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own13.TabIndex = 21;
+            this.PB_own13.TabStop = false;
+            this.PB_own13.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own12
+            // 
+            this.PB_own12.Location = new System.Drawing.Point(441, 157);
+            this.PB_own12.Name = "PB_own12";
+            this.PB_own12.Size = new System.Drawing.Size(81, 124);
+            this.PB_own12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own12.TabIndex = 20;
+            this.PB_own12.TabStop = false;
+            this.PB_own12.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own11
+            // 
+            this.PB_own11.Location = new System.Drawing.Point(354, 157);
+            this.PB_own11.Name = "PB_own11";
+            this.PB_own11.Size = new System.Drawing.Size(81, 124);
+            this.PB_own11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own11.TabIndex = 19;
+            this.PB_own11.TabStop = false;
+            this.PB_own11.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own10
+            // 
+            this.PB_own10.Location = new System.Drawing.Point(267, 157);
+            this.PB_own10.Name = "PB_own10";
+            this.PB_own10.Size = new System.Drawing.Size(81, 124);
+            this.PB_own10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own10.TabIndex = 18;
+            this.PB_own10.TabStop = false;
+            this.PB_own10.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own9
+            // 
+            this.PB_own9.Location = new System.Drawing.Point(180, 157);
+            this.PB_own9.Name = "PB_own9";
+            this.PB_own9.Size = new System.Drawing.Size(81, 124);
+            this.PB_own9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own9.TabIndex = 17;
+            this.PB_own9.TabStop = false;
+            this.PB_own9.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own8
+            // 
+            this.PB_own8.Location = new System.Drawing.Point(93, 157);
+            this.PB_own8.Name = "PB_own8";
+            this.PB_own8.Size = new System.Drawing.Size(81, 124);
+            this.PB_own8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own8.TabIndex = 16;
+            this.PB_own8.TabStop = false;
+            this.PB_own8.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own7
+            // 
+            this.PB_own7.Location = new System.Drawing.Point(6, 158);
+            this.PB_own7.Name = "PB_own7";
+            this.PB_own7.Size = new System.Drawing.Size(81, 124);
+            this.PB_own7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own7.TabIndex = 15;
+            this.PB_own7.TabStop = false;
+            this.PB_own7.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own6
+            // 
+            this.PB_own6.Location = new System.Drawing.Point(441, 28);
+            this.PB_own6.Name = "PB_own6";
+            this.PB_own6.Size = new System.Drawing.Size(81, 124);
+            this.PB_own6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own6.TabIndex = 14;
+            this.PB_own6.TabStop = false;
+            this.PB_own6.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own5
+            // 
+            this.PB_own5.Location = new System.Drawing.Point(354, 28);
+            this.PB_own5.Name = "PB_own5";
+            this.PB_own5.Size = new System.Drawing.Size(81, 124);
+            this.PB_own5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own5.TabIndex = 13;
+            this.PB_own5.TabStop = false;
+            this.PB_own5.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own4
+            // 
+            this.PB_own4.Location = new System.Drawing.Point(267, 28);
+            this.PB_own4.Name = "PB_own4";
+            this.PB_own4.Size = new System.Drawing.Size(81, 124);
+            this.PB_own4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own4.TabIndex = 12;
+            this.PB_own4.TabStop = false;
+            this.PB_own4.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own3
+            // 
+            this.PB_own3.Location = new System.Drawing.Point(180, 28);
+            this.PB_own3.Name = "PB_own3";
+            this.PB_own3.Size = new System.Drawing.Size(81, 124);
+            this.PB_own3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own3.TabIndex = 11;
+            this.PB_own3.TabStop = false;
+            this.PB_own3.Click += new System.EventHandler(this.PB_own_Click);
+            // 
+            // PB_own2
+            // 
+            this.PB_own2.Location = new System.Drawing.Point(93, 28);
+            this.PB_own2.Name = "PB_own2";
+            this.PB_own2.Size = new System.Drawing.Size(81, 124);
+            this.PB_own2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_own2.TabIndex = 10;
+            this.PB_own2.TabStop = false;
+            this.PB_own2.Click += new System.EventHandler(this.PB_own_Click);
+            // 
             // PB_own1
             // 
             this.PB_own1.Location = new System.Drawing.Point(6, 29);
@@ -193,6 +423,7 @@
             this.PB_own1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PB_own1.TabIndex = 9;
             this.PB_own1.TabStop = false;
+            this.PB_own1.Click += new System.EventHandler(this.PB_own_Click);
             // 
             // groupBox3
             // 
@@ -208,12 +439,59 @@
             this.groupBox3.Controls.Add(this.btnSurrender);
             this.groupBox3.Controls.Add(this.btnGuess);
             this.groupBox3.Font = new System.Drawing.Font("黑体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox3.Location = new System.Drawing.Point(1105, 14);
+            this.groupBox3.Location = new System.Drawing.Point(559, 13);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(642, 801);
+            this.groupBox3.Size = new System.Drawing.Size(642, 807);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Pick Area";
+            // 
+            // lb_detail_2
+            // 
+            this.lb_detail_2.FormattingEnabled = true;
+            this.lb_detail_2.ItemHeight = 20;
+            this.lb_detail_2.Location = new System.Drawing.Point(326, 117);
+            this.lb_detail_2.Name = "lb_detail_2";
+            this.lb_detail_2.Size = new System.Drawing.Size(310, 424);
+            this.lb_detail_2.TabIndex = 13;
+            // 
+            // lb_detail_1
+            // 
+            this.lb_detail_1.FormattingEnabled = true;
+            this.lb_detail_1.ItemHeight = 20;
+            this.lb_detail_1.Location = new System.Drawing.Point(6, 119);
+            this.lb_detail_1.Name = "lb_detail_1";
+            this.lb_detail_1.Size = new System.Drawing.Size(314, 424);
+            this.lb_detail_1.TabIndex = 12;
+            // 
+            // lb_sex
+            // 
+            this.lb_sex.FormattingEnabled = true;
+            this.lb_sex.ItemHeight = 20;
+            this.lb_sex.Location = new System.Drawing.Point(4, 29);
+            this.lb_sex.Name = "lb_sex";
+            this.lb_sex.Size = new System.Drawing.Size(632, 84);
+            this.lb_sex.TabIndex = 11;
+            this.lb_sex.SelectedIndexChanged += new System.EventHandler(this.lb_sex_SelectedIndexChanged);
+            // 
+            // lab_RoomNumb
+            // 
+            this.lab_RoomNumb.AutoSize = true;
+            this.lab_RoomNumb.Font = new System.Drawing.Font("黑体", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lab_RoomNumb.Location = new System.Drawing.Point(146, 556);
+            this.lab_RoomNumb.Name = "lab_RoomNumb";
+            this.lab_RoomNumb.Size = new System.Drawing.Size(0, 43);
+            this.lab_RoomNumb.TabIndex = 10;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("黑体", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Location = new System.Drawing.Point(6, 556);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(134, 43);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Room:";
             // 
             // btn_readyOrStart
             // 
@@ -308,7 +586,7 @@
             // 
             this.btnGuess.Location = new System.Drawing.Point(6, 608);
             this.btnGuess.Name = "btnGuess";
-            this.btnGuess.Size = new System.Drawing.Size(154, 89);
+            this.btnGuess.Size = new System.Drawing.Size(155, 89);
             this.btnGuess.TabIndex = 3;
             this.btnGuess.Text = "Guess";
             this.btnGuess.UseVisualStyleBackColor = true;
@@ -321,7 +599,7 @@
             this.textBox1.Location = new System.Drawing.Point(199, 570);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(900, 250);
+            this.textBox1.Size = new System.Drawing.Size(354, 250);
             this.textBox1.TabIndex = 3;
             // 
             // PicHome
@@ -360,9 +638,9 @@
             this.groupBox2.Controls.Add(this.PB_enemy7);
             this.groupBox2.Controls.Add(this.PB_enemy1);
             this.groupBox2.Font = new System.Drawing.Font("黑体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox2.Location = new System.Drawing.Point(559, 12);
+            this.groupBox2.Location = new System.Drawing.Point(1237, 156);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(540, 551);
+            this.groupBox2.Size = new System.Drawing.Size(73, 10);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Your Enemy";
@@ -583,265 +861,11 @@
             this.PB_enemy1.TabIndex = 9;
             this.PB_enemy1.TabStop = false;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("黑体", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(6, 556);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(134, 44);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Room:";
-            // 
-            // lab_RoomNumb
-            // 
-            this.lab_RoomNumb.AutoSize = true;
-            this.lab_RoomNumb.Font = new System.Drawing.Font("黑体", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_RoomNumb.Location = new System.Drawing.Point(146, 556);
-            this.lab_RoomNumb.Name = "lab_RoomNumb";
-            this.lab_RoomNumb.Size = new System.Drawing.Size(0, 44);
-            this.lab_RoomNumb.TabIndex = 10;
-            // 
-            // lb_sex
-            // 
-            this.lb_sex.FormattingEnabled = true;
-            this.lb_sex.ItemHeight = 20;
-            this.lb_sex.Location = new System.Drawing.Point(4, 29);
-            this.lb_sex.Name = "lb_sex";
-            this.lb_sex.Size = new System.Drawing.Size(632, 84);
-            this.lb_sex.TabIndex = 11;
-            this.lb_sex.SelectedIndexChanged += new System.EventHandler(this.lb_sex_SelectedIndexChanged);
-            // 
-            // lb_detail_1
-            // 
-            this.lb_detail_1.FormattingEnabled = true;
-            this.lb_detail_1.ItemHeight = 20;
-            this.lb_detail_1.Location = new System.Drawing.Point(6, 119);
-            this.lb_detail_1.Name = "lb_detail_1";
-            this.lb_detail_1.Size = new System.Drawing.Size(314, 424);
-            this.lb_detail_1.TabIndex = 12;
-            // 
-            // lb_detail_2
-            // 
-            this.lb_detail_2.FormattingEnabled = true;
-            this.lb_detail_2.ItemHeight = 20;
-            this.lb_detail_2.Location = new System.Drawing.Point(326, 117);
-            this.lb_detail_2.Name = "lb_detail_2";
-            this.lb_detail_2.Size = new System.Drawing.Size(310, 424);
-            this.lb_detail_2.TabIndex = 13;
-            // 
-            // PB_own2
-            // 
-            this.PB_own2.Location = new System.Drawing.Point(93, 28);
-            this.PB_own2.Name = "PB_own2";
-            this.PB_own2.Size = new System.Drawing.Size(81, 124);
-            this.PB_own2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own2.TabIndex = 10;
-            this.PB_own2.TabStop = false;
-            // 
-            // PB_own3
-            // 
-            this.PB_own3.Location = new System.Drawing.Point(180, 28);
-            this.PB_own3.Name = "PB_own3";
-            this.PB_own3.Size = new System.Drawing.Size(81, 124);
-            this.PB_own3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own3.TabIndex = 11;
-            this.PB_own3.TabStop = false;
-            // 
-            // PB_own4
-            // 
-            this.PB_own4.Location = new System.Drawing.Point(267, 28);
-            this.PB_own4.Name = "PB_own4";
-            this.PB_own4.Size = new System.Drawing.Size(81, 124);
-            this.PB_own4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own4.TabIndex = 12;
-            this.PB_own4.TabStop = false;
-            // 
-            // PB_own5
-            // 
-            this.PB_own5.Location = new System.Drawing.Point(354, 28);
-            this.PB_own5.Name = "PB_own5";
-            this.PB_own5.Size = new System.Drawing.Size(81, 124);
-            this.PB_own5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own5.TabIndex = 13;
-            this.PB_own5.TabStop = false;
-            // 
-            // PB_own6
-            // 
-            this.PB_own6.Location = new System.Drawing.Point(441, 28);
-            this.PB_own6.Name = "PB_own6";
-            this.PB_own6.Size = new System.Drawing.Size(81, 124);
-            this.PB_own6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own6.TabIndex = 14;
-            this.PB_own6.TabStop = false;
-            // 
-            // PB_own12
-            // 
-            this.PB_own12.Location = new System.Drawing.Point(441, 157);
-            this.PB_own12.Name = "PB_own12";
-            this.PB_own12.Size = new System.Drawing.Size(81, 124);
-            this.PB_own12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own12.TabIndex = 20;
-            this.PB_own12.TabStop = false;
-            // 
-            // PB_own11
-            // 
-            this.PB_own11.Location = new System.Drawing.Point(354, 157);
-            this.PB_own11.Name = "PB_own11";
-            this.PB_own11.Size = new System.Drawing.Size(81, 124);
-            this.PB_own11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own11.TabIndex = 19;
-            this.PB_own11.TabStop = false;
-            // 
-            // PB_own10
-            // 
-            this.PB_own10.Location = new System.Drawing.Point(267, 157);
-            this.PB_own10.Name = "PB_own10";
-            this.PB_own10.Size = new System.Drawing.Size(81, 124);
-            this.PB_own10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own10.TabIndex = 18;
-            this.PB_own10.TabStop = false;
-            // 
-            // PB_own9
-            // 
-            this.PB_own9.Location = new System.Drawing.Point(180, 157);
-            this.PB_own9.Name = "PB_own9";
-            this.PB_own9.Size = new System.Drawing.Size(81, 124);
-            this.PB_own9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own9.TabIndex = 17;
-            this.PB_own9.TabStop = false;
-            // 
-            // PB_own8
-            // 
-            this.PB_own8.Location = new System.Drawing.Point(93, 157);
-            this.PB_own8.Name = "PB_own8";
-            this.PB_own8.Size = new System.Drawing.Size(81, 124);
-            this.PB_own8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own8.TabIndex = 16;
-            this.PB_own8.TabStop = false;
-            // 
-            // PB_own7
-            // 
-            this.PB_own7.Location = new System.Drawing.Point(6, 158);
-            this.PB_own7.Name = "PB_own7";
-            this.PB_own7.Size = new System.Drawing.Size(81, 124);
-            this.PB_own7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own7.TabIndex = 15;
-            this.PB_own7.TabStop = false;
-            // 
-            // PB_own18
-            // 
-            this.PB_own18.Location = new System.Drawing.Point(441, 287);
-            this.PB_own18.Name = "PB_own18";
-            this.PB_own18.Size = new System.Drawing.Size(81, 124);
-            this.PB_own18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own18.TabIndex = 26;
-            this.PB_own18.TabStop = false;
-            // 
-            // PB_own17
-            // 
-            this.PB_own17.Location = new System.Drawing.Point(354, 287);
-            this.PB_own17.Name = "PB_own17";
-            this.PB_own17.Size = new System.Drawing.Size(81, 124);
-            this.PB_own17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own17.TabIndex = 25;
-            this.PB_own17.TabStop = false;
-            // 
-            // PB_own16
-            // 
-            this.PB_own16.Location = new System.Drawing.Point(267, 287);
-            this.PB_own16.Name = "PB_own16";
-            this.PB_own16.Size = new System.Drawing.Size(81, 124);
-            this.PB_own16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own16.TabIndex = 24;
-            this.PB_own16.TabStop = false;
-            // 
-            // PB_own15
-            // 
-            this.PB_own15.Location = new System.Drawing.Point(180, 287);
-            this.PB_own15.Name = "PB_own15";
-            this.PB_own15.Size = new System.Drawing.Size(81, 124);
-            this.PB_own15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own15.TabIndex = 23;
-            this.PB_own15.TabStop = false;
-            // 
-            // PB_own14
-            // 
-            this.PB_own14.Location = new System.Drawing.Point(93, 287);
-            this.PB_own14.Name = "PB_own14";
-            this.PB_own14.Size = new System.Drawing.Size(81, 124);
-            this.PB_own14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own14.TabIndex = 22;
-            this.PB_own14.TabStop = false;
-            // 
-            // PB_own13
-            // 
-            this.PB_own13.Location = new System.Drawing.Point(6, 288);
-            this.PB_own13.Name = "PB_own13";
-            this.PB_own13.Size = new System.Drawing.Size(81, 124);
-            this.PB_own13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own13.TabIndex = 21;
-            this.PB_own13.TabStop = false;
-            // 
-            // PB_own24
-            // 
-            this.PB_own24.Location = new System.Drawing.Point(441, 417);
-            this.PB_own24.Name = "PB_own24";
-            this.PB_own24.Size = new System.Drawing.Size(81, 124);
-            this.PB_own24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own24.TabIndex = 32;
-            this.PB_own24.TabStop = false;
-            // 
-            // PB_own23
-            // 
-            this.PB_own23.Location = new System.Drawing.Point(354, 417);
-            this.PB_own23.Name = "PB_own23";
-            this.PB_own23.Size = new System.Drawing.Size(81, 124);
-            this.PB_own23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own23.TabIndex = 31;
-            this.PB_own23.TabStop = false;
-            // 
-            // PB_own22
-            // 
-            this.PB_own22.Location = new System.Drawing.Point(267, 417);
-            this.PB_own22.Name = "PB_own22";
-            this.PB_own22.Size = new System.Drawing.Size(81, 124);
-            this.PB_own22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own22.TabIndex = 30;
-            this.PB_own22.TabStop = false;
-            // 
-            // PB_own21
-            // 
-            this.PB_own21.Location = new System.Drawing.Point(180, 417);
-            this.PB_own21.Name = "PB_own21";
-            this.PB_own21.Size = new System.Drawing.Size(81, 124);
-            this.PB_own21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own21.TabIndex = 29;
-            this.PB_own21.TabStop = false;
-            // 
-            // PB_own20
-            // 
-            this.PB_own20.Location = new System.Drawing.Point(93, 417);
-            this.PB_own20.Name = "PB_own20";
-            this.PB_own20.Size = new System.Drawing.Size(81, 124);
-            this.PB_own20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own20.TabIndex = 28;
-            this.PB_own20.TabStop = false;
-            // 
-            // PB_own19
-            // 
-            this.PB_own19.Location = new System.Drawing.Point(6, 418);
-            this.PB_own19.Name = "PB_own19";
-            this.PB_own19.Size = new System.Drawing.Size(81, 124);
-            this.PB_own19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_own19.TabIndex = 27;
-            this.PB_own19.TabStop = false;
-            // 
             // GamePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1751, 827);
+            this.ClientSize = new System.Drawing.Size(1209, 827);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.PicHome);
             this.Controls.Add(this.textBox1);
@@ -851,6 +875,29 @@
             this.Text = "GamePage";
             this.Load += new System.EventHandler(this.GamePage_Load);
             this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_own2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_own1)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
@@ -882,29 +929,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.PB_enemy13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_enemy7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_enemy1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_own19)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

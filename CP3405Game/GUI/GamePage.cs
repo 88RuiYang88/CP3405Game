@@ -26,11 +26,10 @@ namespace CP3405Game.GUI
         private ArrayList data_2;
 
         private int ownTarget;
+
         private int enemyTarget;
 
-
-       
-
+        private int tryTimes;
 
         /// <summary>
         /// 
@@ -50,8 +49,6 @@ namespace CP3405Game.GUI
             data_2 = new ArrayList();
             ownTarget = 0;
             enemyTarget = 0;
-
-            setPic("17#1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24|17#1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24");
 
             this.Text = "Room Number : "+ roomNumber;
             lab_RoomNumb.Text = roomNumber;
@@ -143,10 +140,12 @@ namespace CP3405Game.GUI
             {
                 //17#1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
                 //setPic(tempM.Split('|')[3]);
+                tryTimes = 0;
                 setPic("17#1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24");
             }
             else if (ownOrGuest == 1)
             {
+                tryTimes = 0;
                 //17#1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
                 string tempMLocation = SQSConnect.getMessageSQS(ownOrGuest);
 
@@ -195,15 +194,16 @@ namespace CP3405Game.GUI
 
         private void setPic(string message_T)
         {
-            //17#1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24|17#1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
-            PictureBox[] ownBox = new PictureBox[]
+            data_1 = new ArrayList();
+            data_2 = new ArrayList();
+
+             PictureBox[] ownBox = new PictureBox[]
             {
                 PB_own1, PB_own2, PB_own3, PB_own4, PB_own5, PB_own6,
                 PB_own7, PB_own8, PB_own9, PB_own10, PB_own11, PB_own12,
                 PB_own13, PB_own14, PB_own15, PB_own16, PB_own17, PB_own18,
                 PB_own19, PB_own20, PB_own21, PB_own22, PB_own23, PB_own24,
             };
-
             PictureBox[] enemyBox = new PictureBox[]
             {
                 PB_enemy1, PB_enemy2, PB_enemy3, PB_enemy4, PB_enemy5, PB_enemy6,
@@ -211,7 +211,6 @@ namespace CP3405Game.GUI
                 PB_enemy13, PB_enemy14, PB_enemy15, PB_enemy16, PB_enemy17, PB_enemy18,
                 PB_enemy19, PB_enemy20, PB_enemy21, PB_enemy22, PB_enemy23, PB_enemy24,
             };
-
             ownTarget = Convert.ToInt32(message_T.Split('|')[0].Split('#')[0]);
 
             enemyTarget = Convert.ToInt32(message_T.Split('|')[1].Split('#')[0]);
@@ -331,7 +330,15 @@ namespace CP3405Game.GUI
             //string tempM= SQSConnect.getMessageSQS(ownOrGuest);
             //deletePic(tempM);
             deletePicEnemy(lb_detail_1.Text.ToLower() + "_" + lb_detail_2.Text.ToLower());
+            tryTimes += 1;
            // btnGuess.Enabled = false;
+        }
+
+        private void PB_own_Click(object sender, EventArgs e)
+        {
+            PictureBox clickedPic = (PictureBox)sender;
+
+            MessageBox.Show(clickedPic.Name.Remove(0,6));
         }
 
 
