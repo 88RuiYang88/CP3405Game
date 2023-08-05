@@ -16,7 +16,8 @@ namespace CP3405Game
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GUI.GamePage("156489",0));
+           // Application.Run(new GUI.GamePage("156489",0));
+            Application.Run(new GUI.LoginPage());
         }
     }
 }

@@ -450,27 +450,27 @@
             // 
             this.lb_detail_2.FormattingEnabled = true;
             this.lb_detail_2.ItemHeight = 20;
-            this.lb_detail_2.Location = new System.Drawing.Point(326, 117);
+            this.lb_detail_2.Location = new System.Drawing.Point(326, 19);
             this.lb_detail_2.Name = "lb_detail_2";
-            this.lb_detail_2.Size = new System.Drawing.Size(310, 424);
+            this.lb_detail_2.Size = new System.Drawing.Size(310, 524);
             this.lb_detail_2.TabIndex = 13;
             // 
             // lb_detail_1
             // 
             this.lb_detail_1.FormattingEnabled = true;
             this.lb_detail_1.ItemHeight = 20;
-            this.lb_detail_1.Location = new System.Drawing.Point(6, 119);
+            this.lb_detail_1.Location = new System.Drawing.Point(6, 19);
             this.lb_detail_1.Name = "lb_detail_1";
-            this.lb_detail_1.Size = new System.Drawing.Size(314, 424);
+            this.lb_detail_1.Size = new System.Drawing.Size(314, 524);
             this.lb_detail_1.TabIndex = 12;
             // 
             // lb_sex
             // 
             this.lb_sex.FormattingEnabled = true;
             this.lb_sex.ItemHeight = 20;
-            this.lb_sex.Location = new System.Drawing.Point(4, 29);
+            this.lb_sex.Location = new System.Drawing.Point(25, 85);
             this.lb_sex.Name = "lb_sex";
-            this.lb_sex.Size = new System.Drawing.Size(632, 84);
+            this.lb_sex.Size = new System.Drawing.Size(136, 44);
             this.lb_sex.TabIndex = 11;
             this.lb_sex.SelectedIndexChanged += new System.EventHandler(this.lb_sex_SelectedIndexChanged);
             // 

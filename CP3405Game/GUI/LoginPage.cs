@@ -1,4 +1,5 @@
-﻿using CP3405Game.DATA;
+﻿using CP3405Game.Business;
+using CP3405Game.DATA;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,14 +27,14 @@ namespace CP3405Game.GUI
 
             Console.WriteLine(SQSConnect.MessageIDNow);
 
-           string tempRoom= SQSConnect.getMessageSQS(0);
+           string tempRoom= SQSLogic.SQSGetData(0, "");
 
             if (tempRoom.IndexOf("NRN|")>=0)
             {
                 RoomId = tempRoom.Split('|')[2];
                 GamePage gamePage = new GamePage(RoomId, 0);
                 gamePage.Show();
-                this.Close();
+               // this.Close();
             }
             else
             {
@@ -46,15 +47,16 @@ namespace CP3405Game.GUI
         {
             if (txt_RoomNumber.Text.Length>0)
             {
-                SQSConnect.sendMessageSQS("ER|1"+RoomId);
+                RoomId = txt_RoomNumber.Text;
+                SQSConnect.sendMessageSQS("ER|1|"+RoomId);
 
-               string message =  SQSConnect.getMessageSQS(1);
+               string message =  SQSLogic.SQSGetData(1,"");
 
                 if (message.Split('|')[3].ToString().ToLower()=="y")
                 {
                     GamePage gamePage  = new GamePage(RoomId,1);
                     gamePage.Show();
-                    this.Close();
+                   // this.Close();
                 }
                 else if (message.Split('|')[3].ToString().ToLower() == "n")
                 {

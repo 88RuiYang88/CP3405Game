@@ -67,7 +67,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(591, 155);
+            this.ClientSize = new System.Drawing.Size(591, 153);
             this.Controls.Add(this.btn_join);
             this.Controls.Add(this.btn_New);
             this.Controls.Add(this.txt_RoomNumber);
