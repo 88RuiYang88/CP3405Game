@@ -1,14 +1,8 @@
 ﻿using CP3405Game.Business;
 using CP3405Game.DATA;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CP3405Game.GUI

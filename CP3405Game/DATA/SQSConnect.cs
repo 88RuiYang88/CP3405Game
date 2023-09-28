@@ -1,12 +1,8 @@
 ﻿using Amazon.SQS.Model;
 using Amazon.SQS;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Amazon;
-using Amazon.Runtime;
 
 namespace CP3405Game.DATA
 {
