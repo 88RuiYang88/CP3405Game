@@ -514,6 +514,10 @@
     <Content Include="charactor\D.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="LICENSE-2.0.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pic\1695906719963.jpg" />
     <Content Include="Pic\1\bg.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -686,6 +690,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Resources\25aa455029ea4504ceacd89eb9a4266.png" />
+    <Content Include="README.txt" />
     <Content Include="Resources\brr.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

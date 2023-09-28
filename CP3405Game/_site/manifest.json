@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "yF4cM99miGSsrT64oV0kgkl56YkQylthgw5Gl1aJqzo="
+          "hash": "/Qi13MD6rvHxz53KpH0zQEbrsbjY3eYcuX1KYu7Y704="
         }
       },
       "is_incremental": false,
@@ -40,12 +40,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "GGOovSab6ZFxRkwbTiKX/AxcXz9WU1qSZOSIhjRqq74="
+          "hash": "Iw7knYe4HC4u4DuGH3ntqwVtp6O5QZJpB9LcxCLwjdo="
         }
       },
       "is_incremental": false,
