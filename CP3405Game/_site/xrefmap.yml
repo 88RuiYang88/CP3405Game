@@ -1,0 +1,226 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: CP3405Game.Business
+  name: CP3405Game.Business
+  href: api/CP3405Game.Business.html
+  commentId: N:CP3405Game.Business
+  fullName: CP3405Game.Business
+  nameWithType: CP3405Game.Business
+- uid: CP3405Game.Business.SQSLogic
+  name: SQSLogic
+  href: api/CP3405Game.Business.SQSLogic.html
+  commentId: T:CP3405Game.Business.SQSLogic
+  fullName: CP3405Game.Business.SQSLogic
+  nameWithType: SQSLogic
+- uid: CP3405Game.Business.SQSLogic.buttonSound(System.String,System.Int32)
+  name: buttonSound(String, Int32)
+  href: api/CP3405Game.Business.SQSLogic.html#CP3405Game_Business_SQSLogic_buttonSound_System_String_System_Int32_
+  commentId: M:CP3405Game.Business.SQSLogic.buttonSound(System.String,System.Int32)
+  fullName: CP3405Game.Business.SQSLogic.buttonSound(System.String, System.Int32)
+  nameWithType: SQSLogic.buttonSound(String, Int32)
+- uid: CP3405Game.Business.SQSLogic.buttonSound*
+  name: buttonSound
+  href: api/CP3405Game.Business.SQSLogic.html#CP3405Game_Business_SQSLogic_buttonSound_
+  commentId: Overload:CP3405Game.Business.SQSLogic.buttonSound
+  isSpec: "True"
+  fullName: CP3405Game.Business.SQSLogic.buttonSound
+  nameWithType: SQSLogic.buttonSound
+- uid: CP3405Game.Business.SQSLogic.SQSGetData(System.Int32,System.String)
+  name: SQSGetData(Int32, String)
+  href: api/CP3405Game.Business.SQSLogic.html#CP3405Game_Business_SQSLogic_SQSGetData_System_Int32_System_String_
+  commentId: M:CP3405Game.Business.SQSLogic.SQSGetData(System.Int32,System.String)
+  fullName: CP3405Game.Business.SQSLogic.SQSGetData(System.Int32, System.String)
+  nameWithType: SQSLogic.SQSGetData(Int32, String)
+- uid: CP3405Game.Business.SQSLogic.SQSGetData(System.Int32,System.String,System.String)
+  name: SQSGetData(Int32, String, String)
+  href: api/CP3405Game.Business.SQSLogic.html#CP3405Game_Business_SQSLogic_SQSGetData_System_Int32_System_String_System_String_
+  commentId: M:CP3405Game.Business.SQSLogic.SQSGetData(System.Int32,System.String,System.String)
+  fullName: CP3405Game.Business.SQSLogic.SQSGetData(System.Int32, System.String, System.String)
+  nameWithType: SQSLogic.SQSGetData(Int32, String, String)
+- uid: CP3405Game.Business.SQSLogic.SQSGetData*
+  name: SQSGetData
+  href: api/CP3405Game.Business.SQSLogic.html#CP3405Game_Business_SQSLogic_SQSGetData_
+  commentId: Overload:CP3405Game.Business.SQSLogic.SQSGetData
+  isSpec: "True"
+  fullName: CP3405Game.Business.SQSLogic.SQSGetData
+  nameWithType: SQSLogic.SQSGetData
+- uid: CP3405Game.DATA
+  name: CP3405Game.DATA
+  href: api/CP3405Game.DATA.html
+  commentId: N:CP3405Game.DATA
+  fullName: CP3405Game.DATA
+  nameWithType: CP3405Game.DATA
+- uid: CP3405Game.DATA.SQSConnect
+  name: SQSConnect
+  href: api/CP3405Game.DATA.SQSConnect.html
+  commentId: T:CP3405Game.DATA.SQSConnect
+  fullName: CP3405Game.DATA.SQSConnect
+  nameWithType: SQSConnect
+- uid: CP3405Game.DATA.SQSConnect.getMessageSQS(System.Int32,System.String)
+  name: getMessageSQS(Int32, String)
+  href: api/CP3405Game.DATA.SQSConnect.html#CP3405Game_DATA_SQSConnect_getMessageSQS_System_Int32_System_String_
+  commentId: M:CP3405Game.DATA.SQSConnect.getMessageSQS(System.Int32,System.String)
+  fullName: CP3405Game.DATA.SQSConnect.getMessageSQS(System.Int32, System.String)
+  nameWithType: SQSConnect.getMessageSQS(Int32, String)
+- uid: CP3405Game.DATA.SQSConnect.getMessageSQS*
+  name: getMessageSQS
+  href: api/CP3405Game.DATA.SQSConnect.html#CP3405Game_DATA_SQSConnect_getMessageSQS_
+  commentId: Overload:CP3405Game.DATA.SQSConnect.getMessageSQS
+  isSpec: "True"
+  fullName: CP3405Game.DATA.SQSConnect.getMessageSQS
+  nameWithType: SQSConnect.getMessageSQS
+- uid: CP3405Game.DATA.SQSConnect.getMessageSQSWithStart(System.Int32,System.String,System.String)
+  name: getMessageSQSWithStart(Int32, String, String)
+  href: api/CP3405Game.DATA.SQSConnect.html#CP3405Game_DATA_SQSConnect_getMessageSQSWithStart_System_Int32_System_String_System_String_
+  commentId: M:CP3405Game.DATA.SQSConnect.getMessageSQSWithStart(System.Int32,System.String,System.String)
+  fullName: CP3405Game.DATA.SQSConnect.getMessageSQSWithStart(System.Int32, System.String, System.String)
+  nameWithType: SQSConnect.getMessageSQSWithStart(Int32, String, String)
+- uid: CP3405Game.DATA.SQSConnect.getMessageSQSWithStart*
+  name: getMessageSQSWithStart
+  href: api/CP3405Game.DATA.SQSConnect.html#CP3405Game_DATA_SQSConnect_getMessageSQSWithStart_
+  commentId: Overload:CP3405Game.DATA.SQSConnect.getMessageSQSWithStart
+  isSpec: "True"
+  fullName: CP3405Game.DATA.SQSConnect.getMessageSQSWithStart
+  nameWithType: SQSConnect.getMessageSQSWithStart
+- uid: CP3405Game.DATA.SQSConnect.MessageIDNow
+  name: MessageIDNow
+  href: api/CP3405Game.DATA.SQSConnect.html#CP3405Game_DATA_SQSConnect_MessageIDNow
+  commentId: F:CP3405Game.DATA.SQSConnect.MessageIDNow
+  fullName: CP3405Game.DATA.SQSConnect.MessageIDNow
+  nameWithType: SQSConnect.MessageIDNow
+- uid: CP3405Game.DATA.SQSConnect.sendMessageSQS(System.String)
+  name: sendMessageSQS(String)
+  href: api/CP3405Game.DATA.SQSConnect.html#CP3405Game_DATA_SQSConnect_sendMessageSQS_System_String_
+  commentId: M:CP3405Game.DATA.SQSConnect.sendMessageSQS(System.String)
+  fullName: CP3405Game.DATA.SQSConnect.sendMessageSQS(System.String)
+  nameWithType: SQSConnect.sendMessageSQS(String)
+- uid: CP3405Game.DATA.SQSConnect.sendMessageSQS*
+  name: sendMessageSQS
+  href: api/CP3405Game.DATA.SQSConnect.html#CP3405Game_DATA_SQSConnect_sendMessageSQS_
+  commentId: Overload:CP3405Game.DATA.SQSConnect.sendMessageSQS
+  isSpec: "True"
+  fullName: CP3405Game.DATA.SQSConnect.sendMessageSQS
+  nameWithType: SQSConnect.sendMessageSQS
+- uid: CP3405Game.GUI
+  name: CP3405Game.GUI
+  href: api/CP3405Game.GUI.html
+  commentId: N:CP3405Game.GUI
+  fullName: CP3405Game.GUI
+  nameWithType: CP3405Game.GUI
+- uid: CP3405Game.GUI.GamePageUpdate
+  name: GamePageUpdate
+  href: api/CP3405Game.GUI.GamePageUpdate.html
+  commentId: T:CP3405Game.GUI.GamePageUpdate
+  fullName: CP3405Game.GUI.GamePageUpdate
+  nameWithType: GamePageUpdate
+- uid: CP3405Game.GUI.GamePageUpdate.#ctor(System.String,System.Int32,System.Int32)
+  name: GamePageUpdate(String, Int32, Int32)
+  href: api/CP3405Game.GUI.GamePageUpdate.html#CP3405Game_GUI_GamePageUpdate__ctor_System_String_System_Int32_System_Int32_
+  commentId: M:CP3405Game.GUI.GamePageUpdate.#ctor(System.String,System.Int32,System.Int32)
+  fullName: CP3405Game.GUI.GamePageUpdate.GamePageUpdate(System.String, System.Int32, System.Int32)
+  nameWithType: GamePageUpdate.GamePageUpdate(String, Int32, Int32)
+- uid: CP3405Game.GUI.GamePageUpdate.#ctor*
+  name: GamePageUpdate
+  href: api/CP3405Game.GUI.GamePageUpdate.html#CP3405Game_GUI_GamePageUpdate__ctor_
+  commentId: Overload:CP3405Game.GUI.GamePageUpdate.#ctor
+  isSpec: "True"
+  fullName: CP3405Game.GUI.GamePageUpdate.GamePageUpdate
+  nameWithType: GamePageUpdate.GamePageUpdate
+- uid: CP3405Game.GUI.GamePageUpdate.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/CP3405Game.GUI.GamePageUpdate.html#CP3405Game_GUI_GamePageUpdate_Dispose_System_Boolean_
+  commentId: M:CP3405Game.GUI.GamePageUpdate.Dispose(System.Boolean)
+  fullName: CP3405Game.GUI.GamePageUpdate.Dispose(System.Boolean)
+  nameWithType: GamePageUpdate.Dispose(Boolean)
+- uid: CP3405Game.GUI.GamePageUpdate.Dispose*
+  name: Dispose
+  href: api/CP3405Game.GUI.GamePageUpdate.html#CP3405Game_GUI_GamePageUpdate_Dispose_
+  commentId: Overload:CP3405Game.GUI.GamePageUpdate.Dispose
+  isSpec: "True"
+  fullName: CP3405Game.GUI.GamePageUpdate.Dispose
+  nameWithType: GamePageUpdate.Dispose
+- uid: CP3405Game.GUI.GamePageUpdate.readIO
+  name: readIO()
+  href: api/CP3405Game.GUI.GamePageUpdate.html#CP3405Game_GUI_GamePageUpdate_readIO
+  commentId: M:CP3405Game.GUI.GamePageUpdate.readIO
+  fullName: CP3405Game.GUI.GamePageUpdate.readIO()
+  nameWithType: GamePageUpdate.readIO()
+- uid: CP3405Game.GUI.GamePageUpdate.readIO*
+  name: readIO
+  href: api/CP3405Game.GUI.GamePageUpdate.html#CP3405Game_GUI_GamePageUpdate_readIO_
+  commentId: Overload:CP3405Game.GUI.GamePageUpdate.readIO
+  isSpec: "True"
+  fullName: CP3405Game.GUI.GamePageUpdate.readIO
+  nameWithType: GamePageUpdate.readIO
+- uid: CP3405Game.GUI.GamePageUpdate.set_Pic
+  name: set_Pic()
+  href: api/CP3405Game.GUI.GamePageUpdate.html#CP3405Game_GUI_GamePageUpdate_set_Pic
+  commentId: M:CP3405Game.GUI.GamePageUpdate.set_Pic
+  fullName: CP3405Game.GUI.GamePageUpdate.set_Pic()
+  nameWithType: GamePageUpdate.set_Pic()
+- uid: CP3405Game.GUI.GamePageUpdate.set_Pic*
+  name: set_Pic
+  href: api/CP3405Game.GUI.GamePageUpdate.html#CP3405Game_GUI_GamePageUpdate_set_Pic_
+  commentId: Overload:CP3405Game.GUI.GamePageUpdate.set_Pic
+  isSpec: "True"
+  fullName: CP3405Game.GUI.GamePageUpdate.set_Pic
+  nameWithType: GamePageUpdate.set_Pic
+- uid: CP3405Game.GUI.GamePageUpdate.setAllClean(System.Boolean)
+  name: setAllClean(Boolean)
+  href: api/CP3405Game.GUI.GamePageUpdate.html#CP3405Game_GUI_GamePageUpdate_setAllClean_System_Boolean_
+  commentId: M:CP3405Game.GUI.GamePageUpdate.setAllClean(System.Boolean)
+  fullName: CP3405Game.GUI.GamePageUpdate.setAllClean(System.Boolean)
+  nameWithType: GamePageUpdate.setAllClean(Boolean)
+- uid: CP3405Game.GUI.GamePageUpdate.setAllClean*
+  name: setAllClean
+  href: api/CP3405Game.GUI.GamePageUpdate.html#CP3405Game_GUI_GamePageUpdate_setAllClean_
+  commentId: Overload:CP3405Game.GUI.GamePageUpdate.setAllClean
+  isSpec: "True"
+  fullName: CP3405Game.GUI.GamePageUpdate.setAllClean
+  nameWithType: GamePageUpdate.setAllClean
+- uid: CP3405Game.GUI.GamePageUpdate.setPic(System.String,System.Int32)
+  name: setPic(String, Int32)
+  href: api/CP3405Game.GUI.GamePageUpdate.html#CP3405Game_GUI_GamePageUpdate_setPic_System_String_System_Int32_
+  commentId: M:CP3405Game.GUI.GamePageUpdate.setPic(System.String,System.Int32)
+  fullName: CP3405Game.GUI.GamePageUpdate.setPic(System.String, System.Int32)
+  nameWithType: GamePageUpdate.setPic(String, Int32)
+- uid: CP3405Game.GUI.GamePageUpdate.setPic*
+  name: setPic
+  href: api/CP3405Game.GUI.GamePageUpdate.html#CP3405Game_GUI_GamePageUpdate_setPic_
+  commentId: Overload:CP3405Game.GUI.GamePageUpdate.setPic
+  isSpec: "True"
+  fullName: CP3405Game.GUI.GamePageUpdate.setPic
+  nameWithType: GamePageUpdate.setPic
+- uid: CP3405Game.GUI.LoginPage
+  name: LoginPage
+  href: api/CP3405Game.GUI.LoginPage.html
+  commentId: T:CP3405Game.GUI.LoginPage
+  fullName: CP3405Game.GUI.LoginPage
+  nameWithType: LoginPage
+- uid: CP3405Game.GUI.LoginPage.#ctor
+  name: LoginPage()
+  href: api/CP3405Game.GUI.LoginPage.html#CP3405Game_GUI_LoginPage__ctor
+  commentId: M:CP3405Game.GUI.LoginPage.#ctor
+  fullName: CP3405Game.GUI.LoginPage.LoginPage()
+  nameWithType: LoginPage.LoginPage()
+- uid: CP3405Game.GUI.LoginPage.#ctor*
+  name: LoginPage
+  href: api/CP3405Game.GUI.LoginPage.html#CP3405Game_GUI_LoginPage__ctor_
+  commentId: Overload:CP3405Game.GUI.LoginPage.#ctor
+  isSpec: "True"
+  fullName: CP3405Game.GUI.LoginPage.LoginPage
+  nameWithType: LoginPage.LoginPage
+- uid: CP3405Game.GUI.LoginPage.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/CP3405Game.GUI.LoginPage.html#CP3405Game_GUI_LoginPage_Dispose_System_Boolean_
+  commentId: M:CP3405Game.GUI.LoginPage.Dispose(System.Boolean)
+  fullName: CP3405Game.GUI.LoginPage.Dispose(System.Boolean)
+  nameWithType: LoginPage.Dispose(Boolean)
+- uid: CP3405Game.GUI.LoginPage.Dispose*
+  name: Dispose
+  href: api/CP3405Game.GUI.LoginPage.html#CP3405Game_GUI_LoginPage_Dispose_
+  commentId: Overload:CP3405Game.GUI.LoginPage.Dispose
+  isSpec: "True"
+  fullName: CP3405Game.GUI.LoginPage.Dispose
+  nameWithType: LoginPage.Dispose
