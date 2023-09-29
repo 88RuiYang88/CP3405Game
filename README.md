@@ -112,7 +112,6 @@ New Features:
 Added the "Three Kingdoms" card set featuring intricate hand-painted patterns.
 
 
-**Deployment steps**
 
-Click Here to check out our 
+**Click Here to check out our**
 [technical documentation](https://github.com/88RuiYang88/CP3405Game/blob/master/CP3405Game/_site/index.html)
