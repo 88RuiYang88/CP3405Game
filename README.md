@@ -1,13 +1,20 @@
 ![JCU Logo](https://github.com/88RuiYang88/CP3405Game/blob/master/CP3405Game/Pic/1695906719963.jpg)
+
 **2023 SP2 CP3405 PA-6 - Guess Who**
 
 
 **Team**
+
 Yang Rui
+
 Zhang Tianyi
+
 Huo Xiangyu
+
 Yuan Shengbo
+
 Wang Zhaoyang
+
 Chen Xunzhen
 
 
