@@ -13,22 +13,25 @@ Wang Zhaoyang
 Chen Xunzhen
 
 
-**Project Introduction**
 
+
+**Project Introduction**
 Our "Guess Who?" project is a digital reimagining of the classic board game, aiming to merge traditional gameplay with modern technology.
 By expanding the character set to promote inclusivity and diversity, introducing personalized avatars,and offering online multiplayer capabilities, we seek to provide a refreshed and unique gaming experience for a broad range of audiences, from children to adults.       Utilizing technologies like C#,JAVA,and SQS.   we aim to transcend the boundaries of the traditional game and create an engaging platform that caters to today's tech-savvy generation.
 
 
-**Installation and setup Guide**
 
+
+**Installation and setup Guide**
 IT is difficult to setup our game.
 Step 1:Download it.
 Step 2:Double click CP3405Game.exe.
 Step 3:Start play!
 
 
-**User guide**
 
+
+**User guide**
 1.  The Game has two player, the room owner and the guest.
 2.  Owner need to selected the game card you guys want to play with and click "New"
 3.  Owner get in to the room, and owner need to post the room ID to the guest.
@@ -42,23 +45,27 @@ Step 3:Start play!
 11.  After 5 rounds of game.  Who get the higher mark will win the game.
 
 
-**License information**
 
+
+**License information**
 Apache License 2.0
 
 
-**Contact information**
 
+
+**Contact information**
 yeyu_sz@163.com
 
 
-**Thanks and acknowledgements**
 
+
+**Thanks and acknowledgements**
 We would like to express our deepest gratitude to Mr.Petteri KASKENPALO, whose invaluable guidance, insightful feedback, and unwavering support have been instrumental to the development and success of this project.  Your expertise and mentorship have not only enriched our learning experience but also instilled in us a profound appreciation for software development.Thank you for your dedication and for inspiring us throughout this journey.
 
 
-**Version Control**
 
+
+**Version Control**
 Version 1.0.0 - Initial Release
 Framework established using C# for client-side programming and JAVA for server-side operations.
 
@@ -108,4 +115,4 @@ Added the "Three Kingdoms" card set featuring intricate hand-painted patterns.
 **Deployment steps**
 
 Click Here to check out our 
-technical documentation
+[technical documentation]()
